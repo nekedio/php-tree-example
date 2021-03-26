@@ -1,0 +1,23 @@
+{
+    "name": "nekedio/tree-example",
+    "authors": [
+        {
+            "name": "Nikita Ionov",
+            "email": "ionov.goo@gmail.com"
+        }
+    ],
+    "require": {
+        "hexlet/trees": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/hexlet-components/php-immutable-fs-trees"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"App\\": "src/"},
+        "files": [
+        ]
+    }
+}
