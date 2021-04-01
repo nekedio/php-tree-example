@@ -53,4 +53,3 @@ function generator()
 }
 
 print_r(generator());
-
